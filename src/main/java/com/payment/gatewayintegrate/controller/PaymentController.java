@@ -16,6 +16,7 @@ import java.util.Map;
 @RequestMapping("/user")
 public class PaymentController {
 
+//checking
     @RequestMapping(value = "/")
     public String getHome() {
         return "redirect:/home";
